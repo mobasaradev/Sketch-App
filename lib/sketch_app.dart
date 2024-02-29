@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:sketch_app/view/drawing_page.dart';
+
+class SketchApp extends StatelessWidget {
+  const SketchApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Sketch App',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const DrawingPage(),
+    );
+  }
+}
