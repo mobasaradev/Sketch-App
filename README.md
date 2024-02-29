@@ -1,6 +1,6 @@
 # sketch_app
 
-A new Flutter project.
+A new Flutter sketch_app project created by Mobasaradev.
 
 ## Getting Started
 

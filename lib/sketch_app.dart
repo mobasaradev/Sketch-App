@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sketch_app/view/drawing_page.dart';
+import 'package:sketch_app/view/drawing_page/drawing_page.dart';
 
 class SketchApp extends StatelessWidget {
   const SketchApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
